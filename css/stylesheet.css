@@ -1,0 +1,66 @@
+      *{
+		   padding:0;
+		   margin:0;
+		   box-sizing:border-box;
+		  
+		}
+	   .container{
+	       width:20%;
+		   height:auto;
+		   padding:20px;
+		   box-shadow:0 0 5px #ccc;
+		   background-color:#fff;
+	     }
+		 .card{
+			 padding:20px;
+			 border:1px solid #ccc;
+		 }
+		 .image{
+			 position:relative;
+			 text-align:center;
+		 }
+		 .image .new{
+			position: absolute;
+			width: 60px;
+			height: 60px;
+			border-radius: 70px;
+			top: 10px;
+			right: 10px;
+			padding: 20px 15px;
+			background-color: #00bcd4;
+			font-size: 18px;
+			color:#fff;
+			font-weight:600;
+		 }
+		.image img{
+			width:200px;
+			height:auto;
+		}
+		.details h4{
+			color:#abaaaa;
+			font-size:12px;
+			margin-bottom:10px;
+		}
+		.details h2{
+			color:#329fab;
+			font-size:18px;
+			margin-bottom:10px;
+		}
+		.star{
+			margin-bottom:15px;
+		}
+		.star iconify-icon{
+			color:#a8a811;
+		}
+		.rate{
+			display:flex;
+			flex-wrap:wrap;
+			justify-content:space-between;
+			margin-bottom:15px;
+		}
+		.stock{
+			display:flex;
+			flex-wrap:wrap;
+			justify-content:space-between;
+			margin-bottom:15px;
+		}
